@@ -15,6 +15,7 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+#include "sdkconfig.h"
 #if CONFIG_TINYUSB_HID_ENABLED
 #include "USB.h"
 #include "USBMSC.h"

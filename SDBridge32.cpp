@@ -15,8 +15,8 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
-#if CONFIG_TINYUSB_HID_ENABLED
 #include "SDBridge32.hpp"
+#if CONFIG_TINYUSB_HID_ENABLED
 #include "USBHID.h"
 
 SDBridge32::SDBridge32() {}

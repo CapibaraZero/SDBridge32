@@ -15,6 +15,7 @@
  * along with this program. If not, see <http://www.gnu.org/licenses/>.
  */
 
+#if CONFIG_TINYUSB_HID_ENABLED
 #include "USB.h"
 #include "USBMSC.h"
 #include "SD.h"
@@ -41,3 +42,4 @@ public:
     void begin(const char *vendor_id, const char *product_id, const char *product_revision);
     void end();
 };
+#endif
